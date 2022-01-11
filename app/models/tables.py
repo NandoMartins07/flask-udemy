@@ -7,7 +7,7 @@ class Pessoa(db.Model):
     nome = db.Column(db.String(50), nullable=False)
     idade = db.Column(db.Integer)
     sexo = db.Column(db.String(1))
-    salario = db.Column(db.float)
+    salario = db.Column(db.Float)
 
     def __init__(self, nome='Anônimo', idade=18, sexo='M', salario=1039):
         self.nome = nome
