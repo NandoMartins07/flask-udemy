@@ -1,6 +1,9 @@
-pip install Flask
+pip install Flask==1.1.2
+
 pip install flask-sqlalchemy
-pip install flask-migrate
+
+pip install flask-migrate==2.6.0
+
 pip install flask-script
 
 python run.py runserver
